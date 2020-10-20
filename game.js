@@ -1,7 +1,5 @@
 
 
-// UN ID : 16418512
-// NAME : Abhishek Gautam
 
 
 
@@ -12,6 +10,24 @@ function initiate(){
 	var store = document.getElementById('start');  //after start div is clicked function named allow runs
 	store.addEventListener('click', allow);
 }
+function allow(){
+	var jammaPaisa = document.getElementById('funds').innerHTML;   //gets what's inside div named ID funds
+    var rokekoPaisa = document.getElementById('amount').value;  //gets the value of amount the user inputs or already stored there
+    if(rokekoPaisa == ""){
+    	alert("Please Enter Amount to bet !");   //alerts when user clicks start race without bet amont
+    }
+    else if(parseInt(rokekoPaisa) > parseInt(jammaPaisa)){
+    alert("You do not have sufficient funds ! Please Enter amount within range ! Thank You !!")  //alerts when user inputs more amount then in funds
+     }
+    else if(isNaN(amount.value) 
+        ){
+      alert("This input is invalid !");  //alerts when user inputs value other then numbers
+
+    }
+     else {
+             clearStep1();  //After all these conditions , finally horse starts to run in right direction
+         }
+         }
 
   
 function clearStep1(){

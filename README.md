@@ -1,1 +1,1 @@
-# Horse-Racing-Game
+# Horse Racing game using javascript.

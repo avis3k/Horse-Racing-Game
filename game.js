@@ -77,6 +77,11 @@ function clearStep3(){
 	step3 = setInterval(animalDownRight,5);
 }
 
+// To clear step 4
+function clearStep4(){
+	step4 = setInterval(animalDownRight,6);
+}
+
 
  function animalDownRight (){
 

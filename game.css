@@ -67,7 +67,7 @@ aside ul {list-style-type: none; margin-left: 0; padding-left: 0; margin-bottom:
 
 
 .character.walkUp .head { 
-	background-position: 0px 0px;
+	background-position: 24px 12px;
 	animation: headbob 0.5s infinite;
 }
 

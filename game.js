@@ -284,6 +284,7 @@ function AviResult2(){
   Lf2 = store[1].offsetLeft; 
   Lf3 = store[2].offsetLeft; 
   Lf4 = store[3].offsetLeft; 
+  Lf5 = store[4].offsetLeft; 
 
 	var thisHorse = document.getElementsByTagName('td');
 

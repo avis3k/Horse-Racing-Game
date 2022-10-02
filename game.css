@@ -13,7 +13,7 @@ aside ul {list-style-type: none; margin-left: 0; padding-left: 0; margin-bottom:
 .heads li:hover, .bodies li:hover {border: 2px solid red;}
 #head0 {background-image: url(images/head0.png);}
 
-#head1 {background-image: url(images/head1.png);}
+#head2 {background-image: url(images/head1.png);}
 #head2 {background-image: url(images/head2.png);}
 #head3 {background-image: url(images/head3.png);}
 #head4 {background-image: url(images/head4.png);}

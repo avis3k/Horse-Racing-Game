@@ -28,14 +28,13 @@ function allow(){
              clearStep1();  //After all these conditions , finally horse starts to run in right direction
          }
          }
-
   
 function clearStep1(){
 	step1 = setInterval(animalRight,5);    
 }
 function animalRight (){
 
-document.getElementById("start").style.display="none"; //after race starts the start race button dissappers by this line of code
+document.getElementById("start game").style.display="none"; //after race starts the start race button dissappers by this line of code
   for(x=1;x<5;x++)   //for selecting all horses , loop is used and to reduce code length
   {
   var store = document.getElementById('horse'+x);
